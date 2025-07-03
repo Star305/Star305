@@ -25,8 +25,12 @@ uploadForm.addEventListener('submit', (e) => {
         .then(response => response.json())
         .then(data => {
           renderGroupList(data.groups);
+          // Clear form fields
+          document.getElementById('group-name').value = '';
+          document.getElementById('group-link').value = '';
         });
-    });
+    })
+    .catch(error => console.error('Error:', error));
 });
 
 function renderGroupList(groups) {
