@@ -1,11 +1,11 @@
 {
-  "name": "star-prime-bot-web",
+  "name": "channel-invite",
   "version": "1.0.0",
   "description": "A web application for sharing WhatsApp group links",
   "scripts": {
-    "start": "serve ."
+    "start": "node server.js"
   },
   "dependencies": {
-    "serve": "^14.2.0"
+    "express": "^4.18.2"
   }
 }
