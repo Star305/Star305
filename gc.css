@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C6F4D6; /* Lemon Green */
+}
+
+header {
+    background-color: #25D366; /* WhatsApp Green */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+main {
+    margin-top: 2em;
+}
+
+#group-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#group-list li {
+    padding: 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+#group-list li:last-child {
+    border-bottom: none;
+}
+
+#upload-form {
+    margin-top: 1em;
+}
+
+#upload-form input {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+}
+
+#upload-form button {
+    width: 100%;
+    padding: 1em;
+    background-color: #25D366; /* WhatsApp Green */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
