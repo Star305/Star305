@@ -1,62 +1,73 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #C6F4D6; /* Lemon Green */
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #C6F4D6, #87CEEB); /* Lemon Green to Sky Blue */
 }
 
 header {
-    background-color: #25D366; /* WhatsApp Green */
-    color: #fff;
-    padding: 1em;
-    text-align: center;
+  background: linear-gradient(to bottom, #25D366, #1A8D5F); /* WhatsApp Green to Dark Green */
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
 }
 
 header img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 main {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 
 #group-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 #group-list li {
-    padding: 1em;
-    border-bottom: 1px solid #ccc;
+  padding: 1em;
+  border-bottom: 1px solid #ccc;
+  background: #fff; /* White background for list items */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
 }
 
 #group-list li:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 #upload-form {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 #upload-form input {
-    width: 100%;
-    padding: 1em;
-    margin-bottom: 1em;
-    border: 1px solid #ccc;
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Add a rounded corner effect */
 }
 
 #upload-form button {
-    width: 100%;
-    padding: 1em;
-    background-color: #25D366; /* WhatsApp Green */
-    color: #fff;
-    border: none;
-    cursor: pointer;
+  width: 100%;
+  padding: 1em;
+  background-color: #FFC107; /* Amber color for the button */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Add a rounded corner effect */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+#upload-form button:hover {
+  background-color: #FFA000; /* Darker amber color on hover */
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-    clear: both;
+  background: linear-gradient(to bottom, #333, #444); /* Dark gray to darker gray */
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
 }
