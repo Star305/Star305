@@ -16,4 +16,3 @@ function generateQuote() {
   const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
   quoteBox.textContent = randomQuote;
 }
-```
